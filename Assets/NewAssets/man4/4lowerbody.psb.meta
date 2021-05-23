@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2ab4550da95b5674cbb6fbe4b46cdf6d
+guid: 9bc1329bd020dd64ab7dabfb15cc5b19
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -46,7 +46,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 0
@@ -91,7 +91,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: "\uB808\uC774\uC5B4 1"
+  - name: Rleg
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -100,9 +100,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 220
-      height: 434
-    spriteID: 138ec1e732604a54a8d4110c8ab5fde0
+      width: 172
+      height: 187
+    spriteID: 18f7c6f6fb615f64d8d475dbf12c5be7
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -112,15 +112,92 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -597, y: -147}
-  platformSettings: []
+    uvTransform: {x: 4, y: 4}
+  - name: Lleg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 199
+      width: 99
+      height: 187
+    spriteID: acf42e61d8c102140ba292a463be2cd6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -69, y: 199}
+  - name: Panties
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 199
+      width: 141
+      height: 57
+    spriteID: 14177434604635e4f8437f50f55f1cb6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 80, y: 69}
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
   importedTextureWidth: 256
   importedTextureHeight: 512
-  documentSize: {x: 1440, y: 720}
+  documentSize: {x: 172, y: 187}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
@@ -132,20 +209,34 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: "\uB808\uC774\uC5B4 1"
-    spriteName: "\uB808\uC774\uC5B4 1"
+  - name: Rleg
+    spriteName: Rleg
     isGroup: 0
     parentIndex: -1
-    spriteID: 138ec1e732604a54a8d4110c8ab5fde0
-    layerID: 3
+    spriteID: 18f7c6f6fb615f64d8d475dbf12c5be7
+    layerID: 4
     mosaicPosition: {x: 4, y: 4}
+  - name: Lleg
+    spriteName: Lleg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: acf42e61d8c102140ba292a463be2cd6
+    layerID: 5
+    mosaicPosition: {x: 4, y: 199}
+  - name: Panties
+    spriteName: Panties
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 14177434604635e4f8437f50f55f1cb6
+    layerID: 2
+    mosaicPosition: {x: 111, y: 199}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: man1 Texture
-  prefabAssetName: man1 Prefab
-  spriteLibAssetName: man1 Sprite Lib
+  textureAssetName: 4lowerbody Texture
+  prefabAssetName: 4lowerbody Prefab
+  spriteLibAssetName: 4lowerbody Sprite Lib
   secondarySpriteTextures: []

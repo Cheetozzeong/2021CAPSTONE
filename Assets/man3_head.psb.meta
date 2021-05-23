@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2ab4550da95b5674cbb6fbe4b46cdf6d
+guid: aef0acec36ae0b14ea332e3e2699ce4c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -91,7 +91,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: "\uB808\uC774\uC5B4 1"
+  - name: ma
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -100,9 +100,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 220
-      height: 434
-    spriteID: 138ec1e732604a54a8d4110c8ab5fde0
+      width: 95
+      height: 131
+    spriteID: 7c1acc20c697d4d4e8994096bbdca418
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -112,31 +112,31 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -597, y: -147}
+    uvTransform: {x: -939, y: -878}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 256
-  importedTextureHeight: 512
-  documentSize: {x: 1440, y: 720}
+  importedTextureWidth: 128
+  importedTextureHeight: 256
+  documentSize: {x: 1890, y: 1417}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 256
-  textureActualHeight: 512
+  textureActualWidth: 128
+  textureActualHeight: 256
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: "\uB808\uC774\uC5B4 1"
-    spriteName: "\uB808\uC774\uC5B4 1"
+  - name: ma
+    spriteName: ma
     isGroup: 0
     parentIndex: -1
-    spriteID: 138ec1e732604a54a8d4110c8ab5fde0
+    spriteID: 7c1acc20c697d4d4e8994096bbdca418
     layerID: 3
     mosaicPosition: {x: 4, y: 4}
   characterData:
@@ -145,7 +145,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: man1 Texture
-  prefabAssetName: man1 Prefab
-  spriteLibAssetName: man1 Sprite Lib
+  textureAssetName: man3_head Texture
+  prefabAssetName: man3_head Prefab
+  spriteLibAssetName: man3_head Sprite Lib
   secondarySpriteTextures: []
