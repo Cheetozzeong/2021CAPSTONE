@@ -100,7 +100,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 172
+      width: 75
       height: 187
     spriteID: 18f7c6f6fb615f64d8d475dbf12c5be7
     internalID: 0
@@ -121,9 +121,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 199
+      y: 209
       width: 99
-      height: 187
+      height: 161
     spriteID: acf42e61d8c102140ba292a463be2cd6
     internalID: 0
     spriteBone: []
@@ -144,7 +144,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 111
       y: 199
-      width: 141
+      width: 112
       height: 57
     spriteID: 14177434604635e4f8437f50f55f1cb6
     internalID: 0
