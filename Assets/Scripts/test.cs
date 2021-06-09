@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
-//ps_lv4_lowerbody.localScale = new Vector3(1f, 1, 1); 크기 바꾸는 함수
+
 public class test : MonoBehaviour
 {
+    int A;
     int headandchest_lv;
     int back_lv;
     int arm_lv;
@@ -165,29 +165,23 @@ public class test : MonoBehaviour
         ps_lv4_lowerbodyw = lv4_lowerbodyw.GetComponent<Transform>();
         ps_lv4_abs = lv4_abs.GetComponent<Transform>();
         ps_lv4_shoulder = lv4_shoulder.GetComponent<Transform>();
+        A = 0;
+
     }
 
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (A <= headandchest_lv)
         {
-            headandchest_lv = 4;
-            abs_lv = 4;
-            lowerbody_lv = 3;
-            back_lv = 4;
-            arm_lv = 3;
-            shoulder_lv = 3;
             Checker();
             arm_shoulder_lv = arm_lv + shoulder_lv;
             head_abs_lv = headandchest_lv + abs_lv;
-            gender = false;
             Set_MyCharacter();
-
+            A++;
         }
 
     }
-
     void Set_Position_body()
     {
         if (gender == true) //남,여 구분
@@ -1200,18 +1194,19 @@ public class test : MonoBehaviour
     }
     void Set_MyCharacter()
     {
-        if (headandchest_lv == 1)
-        {
-            Clean_All();
-            Set_HeadAndAbs();
-        }
-        else
-        {
-            Clean_All();
-            Set_All();
-        }
+            if (headandchest_lv == 1)
+            {
+                Clean_All();
+                Set_HeadAndAbs();
 
-    }
+
+            }
+            else
+            {
+                Clean_All();
+                Set_All();
+            }
+        }
     void Set_HeadAndAbs()
     {
         if (head_abs_lv >= 4 && head_abs_lv < 6 && gender == true)
@@ -1545,6 +1540,7 @@ public class test : MonoBehaviour
         Set_Back();
         Set_ArmAndShoulder();
         Set_Position_body();
+
     }
     void Checker()
     {
@@ -1576,4 +1572,34 @@ public class test : MonoBehaviour
         }
     } 
     }
+
+    void Headandchest_LevelChange(int Headandchest_level)
+    {
+        headandchest_lv = Headandchest_level;
     }
+    void Back_LevelChange(int Back_level)
+    {
+        back_lv = Back_level;
+    }
+    void Arm_LevelChange(int Arm_level)
+    {
+        arm_lv = Arm_level;
+    }
+    void Lowerbody_LevelChange(int Lowerbody_level)
+    {
+         lowerbody_lv = Lowerbody_level;
+    }
+    void Abs_LevelChange(int Abs_level)
+    {
+        abs_lv = Abs_level;
+    }
+    void Shoulder_LevelChange(int Shoulder_level)
+    {
+        shoulder_lv = Shoulder_level;
+    }
+    void GenderChange(bool Gender)
+    {
+        gender = Gender;
+    }
+
+}
